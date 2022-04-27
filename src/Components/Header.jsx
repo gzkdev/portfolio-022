@@ -1,5 +1,11 @@
+import HeaderTop from "./HeaderTop";
+
 function Header() {
-  return <div>Header jou</div>;
+  return (
+    <header>
+      <HeaderTop />
+    </header>
+  );
 }
 
 export default Header;
