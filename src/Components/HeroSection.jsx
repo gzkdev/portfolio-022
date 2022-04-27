@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CallToActionDiv from "./CallToActionDiv";
 
 const HeroSectionStyled = styled.section`
   width: 100%;
@@ -6,7 +7,6 @@ const HeroSectionStyled = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 8rem 1rem; */
   max-width: 1200px;
   margin: 0 auto;
 
@@ -37,9 +37,7 @@ function HeroSection() {
           Front-end engineering lies in learning and building applications
           people will actually love to use.
         </p>
-        {/* <div class="cta__container">
-            <a href="#" class="cta">Get in touch</a>
-          </div> */}
+        <CallToActionDiv text="Get in touch" />
       </div>
     </HeroSectionStyled>
   );
