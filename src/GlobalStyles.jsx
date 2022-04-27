@@ -45,18 +45,18 @@ const GlobalStyle = createGlobalStyle`
     --color-710: #0f0f27;
     --color-800: #b0b0b1;
     --color-900: #eeeeee;
-    --font-sze-100: clamp(0.69rem, calc(0.59rem + 0.52vw), 0.96rem);
-    --font-sze-200: clamp(0.8rem, calc(0.61rem + 0.82vw), 1rem);
-    --font-sze-300: clamp(1rem, calc(0.63rem + 1.22vw), 1.5rem);
-    --font-sze-400: clamp(0.98rem, calc(0.64rem + 1.74vw), 1.88rem);
-    --font-sze-500: clamp(1.11rem, calc(0.63rem + 2.41vw), 2.34rem);
-    --font-sze-600: clamp(1.25rem, calc(0.59rem + 3.29vw), 2.93rem);
-    --font-sze-700: clamp(1.4rem, calc(0.52rem + 4.41vw), 3.66rem);
-    --font-sze-800: clamp(1.58rem, calc(0.41rem + 5.85vw), 4.58rem);
+    --font-s1ze-100: clamp(0.69rem, calc(0.59rem + 0.52vw), 0.96rem);
+    --font-s1ze-200: clamp(0.8rem, calc(0.61rem + 0.82vw), 1rem);
+    --font-s1ze-300: clamp(1rem, calc(0.63rem + 1.22vw), 1.5rem);
+    --font-s1ze-400: clamp(0.98rem, calc(0.64rem + 1.74vw), 1.88rem);
+    --font-s1ze-500: clamp(1.11rem, calc(0.63rem + 2.41vw), 2.34rem);
+    --font-s1ze-600: clamp(1.25rem, calc(0.59rem + 3.29vw), 2.93rem);
+    --font-s1ze-700: clamp(1.4rem, calc(0.52rem + 4.41vw), 3.66rem);
+    --font-s1ze-800: clamp(1.58rem, calc(0.41rem + 5.85vw), 4.58rem);
     }
 
     body {
-    font-size: var(--font-sze-300);
+    font-size: var(--font-s1ze-300);
     font-family: "Satoshi", -apple-system, BlinkMacSystemFont, "Segoe UI",
         "Open Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -77,7 +77,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-    font-size: var(--font-sze-800);
+    font-size: var(--font-s1ze-800);
     text-transform: capitalize;
     }
 
@@ -87,7 +87,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-    font-size: var(--font-sze-700);
+    font-size: var(--font-s1ze-700);
     }
 
     section {
