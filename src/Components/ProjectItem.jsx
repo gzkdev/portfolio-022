@@ -60,21 +60,20 @@ const ProjectItemStyled = styled.div`
   }
 `;
 
-function ProjectItem() {
+function ProjectItem({ content }) {
+  const { name, description, tags, url, repo_url } = content;
   return (
     <ProjectItemStyled>
-      <h4>Octomigo</h4>
+      <h4>{name}</h4>
       <div>
-        <p>
-          Front-end web application to easilty fetch any Github user's profile
-          without visiting the Github website.
-        </p>
+        <p>{description}</p>
         <ul>
-          <li>React</li>
-          <li>GitHub API</li>
+          {tags.map((tag) => (
+            <li>{tag}</li>
+          ))}
         </ul>
       </div>
-      <a href="http://#" target="_blank" rel="noopener noreferrer">
+      <a href={url} target="_blank" rel="noopener noreferrer">
         View Project
       </a>
     </ProjectItemStyled>

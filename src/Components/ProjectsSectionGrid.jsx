@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import ProjectItem from "./ProjectItem";
+import { Projects } from "../AppData";
 
 const ProjectsGridStyled = styled.div`
   --columns: 1;
@@ -19,7 +20,9 @@ const ProjectsGridStyled = styled.div`
 function ProjectsGrid() {
   return (
     <ProjectsGridStyled>
-      <ProjectItem />
+      {Projects.map((content) => (
+        <ProjectItem content={content} key={content.url} />
+      ))}
     </ProjectsGridStyled>
   );
 }
