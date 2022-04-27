@@ -1,7 +1,14 @@
-import React from "react";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 function About() {
-  return <div>About</div>;
+  return (
+    <>
+      <Header />
+
+      <Footer />
+    </>
+  );
 }
 
 export default About;
