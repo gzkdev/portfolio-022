@@ -41,8 +41,8 @@ const GlobalStyle = createGlobalStyle`
     --color-400: #191155;
     --color-500: #415acb;
     --color-600: #f6591c;
-    --color-700: #050507;
-    --color-710: #242430;
+    --color-700: #01010e;
+    --color-710: #0f0f27;
     --color-800: #b0b0b1;
     --color-900: #eeeeee;
     --font-sze-100: clamp(0.69rem, calc(0.59rem + 0.52vw), 0.96rem);

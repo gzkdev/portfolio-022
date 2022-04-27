@@ -20,8 +20,8 @@ const ProjectsGridStyled = styled.div`
 function ProjectsGrid() {
   return (
     <ProjectsGridStyled>
-      {Projects.map((content) => (
-        <ProjectItem content={content} key={content.url} />
+      {Projects.map((content, index) => (
+        <ProjectItem content={content} key={index} />
       ))}
     </ProjectsGridStyled>
   );

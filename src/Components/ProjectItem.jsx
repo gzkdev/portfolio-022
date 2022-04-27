@@ -9,34 +9,39 @@ const ProjectItemStyled = styled.div`
   border-radius: 8px;
 
   & h4 {
-    font-size: var(--font-sze-400);
+    font-size: var(--font-sze-300);
+  }
+
+  & ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: var(--font-sze-200);
+    margin-top: 0.5rem;
+
+    & li:not(li:last-child)::after {
+      content: "+";
+      margin: 0 0.4rem;
+      display: inline-block;
+    }
   }
 
   & > div {
-    font-size: var(--font-sze-200);
     margin-top: 1rem;
     margin-bottom: 2rem;
 
-    & ul {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
+    @media (min-width: 540px) {
       font-size: var(--font-sze-200);
-      font-family: "Courier New", Courier, monospace;
-      margin-top: 1rem;
-
-      & li {
-        margin-right: 1rem;
-      }
     }
   }
 
   & a {
     font-size: var(--font-sze-200);
+    letter-spacing: 0.4px;
     text-decoration: none;
     transition: 400ms color;
-    color: var(--color-200);
+    color: var(--color-110);
     align-self: flex-start;
     position: relative;
 
@@ -65,13 +70,13 @@ function ProjectItem({ content }) {
   return (
     <ProjectItemStyled>
       <h4>{name}</h4>
+      <ul>
+        {tags.map((tag, index) => (
+          <li key={index}>{tag}</li>
+        ))}
+      </ul>
       <div>
         <p>{description}</p>
-        <ul>
-          {tags.map((tag) => (
-            <li>{tag}</li>
-          ))}
-        </ul>
       </div>
       <a href={url} target="_blank" rel="noopener noreferrer">
         View Project

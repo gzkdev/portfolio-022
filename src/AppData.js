@@ -35,7 +35,7 @@ export const Projects = [
         repo_url: "https://octomigo.netlify.app"
     },
     {
-        name: "Dressr (coming soon)",
+        name: "Dressr",
         description: "An e-commerce website for an online boutique to showcase their products and allow customers to add items to cart.",
         tags: ["React", "Framer motion"],
         url: "https://coinmigo.netlify.app",
