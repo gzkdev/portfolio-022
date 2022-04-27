@@ -3,7 +3,7 @@ import styled from "styled-components";
 const LogoStyled = styled.div`
   font-weight: bold;
   text-decoration: none;
-  font-size: var(--font-sze-200);
+  font-size: var(--font-s1ze-200);
   color: var(--color-900);
   display: block;
   height: 40px;

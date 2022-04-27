@@ -5,7 +5,7 @@ const SectionHeaderStyled = styled.div`
   max-width: 1000px;
 
   & span {
-    font-size: var(--font-sze-100);
+    font-size: var(--font-s1ze-100);
     text-transform: uppercase;
     display: block;
     margin-bottom: 1rem;

@@ -42,3 +42,31 @@ export const Projects = [
         repo_url: "https://octomigo.netlify.app"
     }
 ]
+
+export const AboutMeStories = [
+    {
+        title: "Engineering ⚛",
+        heading: "The Technical Story",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum voluptatem necessitatibus vel dicta architecto fuga impedit neque aliquid velit quos nam sequi iste earum eos voluptatum repellat nisi, eius at. Similique nam esse suscipit voluptatum nostrum odit hic incidunt cum consequuntur ipsam ratione fugiat perspiciatis placeat quam blanditiis et mollitia repellat quo eveniet ipsum, provident cumque, quasi facere adipisci. Dolore, odit quidem.",
+        ref_url: "https://github.com/gzkdev"
+    },
+    {
+        title: "Design 🎨",
+        heading: "Making things beautiful",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum voluptatem necessitatibus vel dicta architecto fuga impedit neque aliquid velit quos nam sequi iste earum eos voluptatum repellat nisi, eius at. Similique nam esse suscipit voluptatum nostrum odit hic incidunt cum consequuntur ipsam ratione fugiat perspiciatis placeat quam blanditiis et mollitia repellat quo eveniet ipsum, provident cumque, quasi facere adipisci. Dolore, odit quidem.",
+        ref_url: "https://dribbble.com/gzkdev"
+    },
+    {
+        title: "Building stuff ✨",
+        heading: "My core skills",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum voluptatem necessitatibus vel dicta architecto fuga impedit neque aliquid velit quos nam sequi iste earum eos voluptatum repellat nisi, eius at. Similique nam esse suscipit voluptatum nostrum odit hic incidunt cum consequuntur ipsam ratione fugiat perspiciatis placeat quam blanditiis et mollitia repellat quo eveniet ipsum, provident cumque, quasi facere adipisci. Dolore, odit quidem.",
+        ref_url: "https://dribbble.com/gzkdev"
+    },
+    {
+        title: "Play hard ✨",
+        heading: "Trying to relax",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum voluptatem necessitatibus vel dicta architecto fuga impedit neque aliquid velit quos nam sequi iste earum eos voluptatum repellat nisi, eius at. Similique nam esse suscipit voluptatum nostrum odit hic incidunt cum consequuntur ipsam ratione fugiat perspiciatis placeat quam blanditiis et mollitia repellat quo eveniet ipsum, provident cumque, quasi facere adipisci. Dolore, odit quidem.",
+        ref_url: "https://dribbble.com/gzkdev"
+    }
+
+]

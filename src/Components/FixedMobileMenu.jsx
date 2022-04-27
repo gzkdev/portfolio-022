@@ -39,7 +39,7 @@ const FixedMobileMenuStyled = styled.div`
     margin-bottom: 2rem;
 
     & a {
-      font-size: var(--font-sze-800);
+      font-size: var(--font-s1ze-800);
       text-transform: uppercase;
     }
   }

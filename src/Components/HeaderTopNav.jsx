@@ -18,7 +18,7 @@ const HeaderTopNavStyled = styled.nav`
     padding: 0 2rem;
     text-decoration: none;
     color: var(--color-900);
-    font-size: var(--font-sze-100);
+    font-size: var(--font-s1ze-200);
   }
 
   @media (min-width: 768px) {

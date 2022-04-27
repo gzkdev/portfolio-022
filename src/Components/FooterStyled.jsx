@@ -27,7 +27,7 @@ const FooterStyled = styled.footer`
 
       & a::before {
         content: "Email";
-        font-size: var(--font-sze-200);
+        font-size: var(--font-s1ze-200);
         color: var(--color-900);
         display: block;
         margin-bottom: 0.5rem;
@@ -56,6 +56,14 @@ const FooterStyled = styled.footer`
         transform-origin: right;
       }
 
+      & > div:nth-child(2)::before {
+        content: "Location";
+        font-size: var(--font-s1ze-200);
+        color: var(--color-900);
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
       @media (min-width: 540px) {
         flex-direction: row;
         align-items: baseline;
@@ -68,7 +76,7 @@ const FooterStyled = styled.footer`
       align-items: flex-start;
       justify-content: space-between;
       padding: 2rem 0;
-      font-size: var(--font-sze-200);
+      font-size: var(--font-s1ze-200);
 
       & ul {
         list-style: none;

@@ -17,11 +17,12 @@ const ProjectItemStyled = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    font-size: var(--font-sze-200);
+    font-size: var(--font-s1ze-200);
+    font-family: "Courier New", Courier, monospace;
     margin-top: 0.5rem;
 
     & li:not(li:last-child)::after {
-      content: "+";
+      content: "&";
       margin: 0 0.4rem;
       display: inline-block;
     }
@@ -32,12 +33,13 @@ const ProjectItemStyled = styled.div`
     margin-bottom: 2rem;
 
     @media (min-width: 540px) {
-      font-size: var(--font-sze-200);
+      font-size: var(--font-s1ze-200);
     }
   }
 
   & a {
-    font-size: var(--font-sze-200);
+    /* --font-s1ze-200 */
+    font-size: var(--font-s1ze-200);
     letter-spacing: 0.4px;
     text-decoration: none;
     transition: 400ms color;
