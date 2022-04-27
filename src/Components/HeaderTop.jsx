@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import HeaderTopLogo from "./HeaderTopLogo";
+import HeaderTopMenuButton from "./HeaderTopMenuButton";
 import HeaderTopNav from "./HeaderTopNav";
 
 const HeaderTopStyled = styled.div`
@@ -22,6 +23,7 @@ function HeaderTop() {
     <HeaderTopStyled>
       <HeaderTopLogo />
       <HeaderTopNav />
+      <HeaderTopMenuButton />
     </HeaderTopStyled>
   );
 }
