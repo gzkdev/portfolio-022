@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ProjectsSectionGrid from "./ProjectsSectionGrid";
+import ProjectsGrid from "./ProjectsSectionGrid";
 import SectionHeader from "./SectionHeader";
 
 const ProjectsSectionStyled = styled.section`
@@ -11,7 +11,7 @@ function ProjectsSection() {
   return (
     <ProjectsSectionStyled>
       <SectionHeader title="Projects" />
-      <ProjectsSectionGrid />
+      <ProjectsGrid />
     </ProjectsSectionStyled>
   );
 }
