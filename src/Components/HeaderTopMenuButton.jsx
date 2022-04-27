@@ -50,6 +50,10 @@ const HeaderTopMenuButtonStyled = styled.button`
   &.active::after {
     transform: translate(0, 0) rotate(45deg);
   }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 function HeaderTopMenuButton() {
