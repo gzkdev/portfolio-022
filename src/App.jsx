@@ -1,15 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
 import GlobalStyle from "./GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <GlobalStyle />
-      <h1>Hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-        dignissimos voluptates placeat.
-      </p>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
