@@ -1,3 +1,4 @@
+import ContactSection from "../Components/ContactSection";
 import Header from "../Components/Header";
 import ProjectsSection from "../Components/ProjectsSection";
 
@@ -6,6 +7,7 @@ function Home() {
     <>
       <Header />
       <ProjectsSection />
+      <ContactSection />
     </>
   );
 }
