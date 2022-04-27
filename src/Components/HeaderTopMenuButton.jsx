@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 
 const HeaderTopMenuButtonStyled = styled.button`
@@ -56,9 +55,7 @@ const HeaderTopMenuButtonStyled = styled.button`
   }
 `;
 
-function HeaderTopMenuButton() {
-  const [isActive, setIsActive] = useState(false);
-
+function HeaderTopMenuButton({ isActive, setIsActive }) {
   return (
     <HeaderTopMenuButtonStyled
       className={isActive && "active"}
