@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import HeaderTopLogo from "./HeaderTopLogo";
 import HeaderTopMenuButton from "./HeaderTopMenuButton";
@@ -19,8 +18,7 @@ const HeaderTopStyled = styled.div`
   transform: translate(-50%, 0);
 `;
 
-function HeaderTop() {
-  const [isActive, setIsActive] = useState(false);
+function HeaderTop({ isActive, setIsActive }) {
   return (
     <HeaderTopStyled>
       <HeaderTopLogo />
