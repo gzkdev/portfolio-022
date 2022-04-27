@@ -1,4 +1,5 @@
 import ContactSection from "../Components/ContactSection";
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import ProjectsSection from "../Components/ProjectsSection";
 
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <ProjectsSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
